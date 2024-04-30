@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+	<script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jakub Leszczynski</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://kubiuks.github.io" class="link"
+          >JL.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+		  <li class="nav__list-item">
+			<a class="link link--nav" href="#experience">Experience</a>
+		  </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Jakub Leszczynski.</span></h1>
+        <h2 class="about__role">A Software Developer.</h2>
+        <p class="about__desc">
+          
+        </p>
+
+        <div class="about__contact center">
+          <a href="CV_Jakub_Leszczynski.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/kubiuks"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/jakub-leszczynski-896730194/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+	  <!-- Experience-->
+	  <section id="experience" class="qualification section">
+		<h2 class="section__title">Experience</h2>
+
+        <div class="qualification-container container">
+          <div class="qualification-tabs">
+            <div class="qualification-button button-flex qualification-active" data-target="#work">
+              <i class="fa-solid fa-briefcase qualification-icon"></i>
+              Work
+            </div>
+			<div
+              class="qualification-button button-flex"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification-section">
+
+            <!-- qualific content 1  -->
+            <div class="qualification-content qualification-active" data-content id="work">
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Software Engineer</h3>
+                  <span class="qualification-subtitle">Hewlett Packard Enterprise</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2021 - 2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-round"></span>
+                  <!-- <span class="qualification-line"></span> -->
+                </div>
+
+                <div>
+					<h3 class="qualification-title">Hotel Services Assistant </h3>
+					<span class="qualification-subtitle">University Hospitals Bristol and Weston NHS Foundation Trust</span>
+					<div class="qualification-date">
+					  <i class="fa-solid fa-calendar-days"></i>
+					  2019 - 2021
+					</div>
+				</div>
+              </div>
+
+              <!-- qualifi 3 -->
+
+              <!-- <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Hotel Services Assistant </h3>
+                  <span class="qualification-subtitle">University Hospitals Bristol and Weston NHS Foundation Trust</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2019 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                </div>
+              </div> -->
+            </div>
+
+			<!-- qualific content 2  -->
+			<div
+              class="qualification-content"
+              data-content
+              id="education"
+            >
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">
+                    BSc(1st class) Computer Science
+                  </h3>
+                  <span class="qualification-subtitle">University of Bristol</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+                <div>
+                  <span class="qualification-round"></span>
+                </div>
+                <div>
+                  <h3 class="qualification-title">Matura</h3>
+                  <span class="qualification-subtitle">III Liceum Ogólnokształcące w Zielonej Górze</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2015 - 2018
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+	  </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Social Buffering</h3>
+            <p class="project__description">
+				A parallel multi-agent model written in Go. In this project, I have
+				implemented an artificial, dynamic world along with complex agents and used it to model
+				the Social Buffering Phenomenon. I then quantitatively analyzed the different emergent
+				behaviours, complete with statistical testing in Python. Additionally, I have implemented a
+				visualization of the simulation for qualitative observations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Go</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+
+            <a
+              href="https://github.com/kubiuks/Alife"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3>HPC LBM</h3>
+            <p class="project__description">
+				A project where I implemented a high performance computing code for Lattice Boltzmann methods, 
+				making use of OpenMP, MPI and OpenCL libraries for CPU and GPU optimisations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C</li>
+              <li class="project__stack-item">OpenMP</li>
+              <li class="project__stack-item">MPI</li>
+              <li class="project__stack-item">OpenCL</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <!-- <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Go</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Jira</li>
+          <li class="skills__list-item btn btn--plain">Jenkins</li>
+          <li class="skills__list-item btn btn--plain">Docker</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:leszczynski.j.p@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a>
+        Created By Jakub Leszczynski
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
